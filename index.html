@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <title>张易的个人博客</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/normalize/5.0.0/normalize.min.css"/>
+    <link rel="stylesheet" href="cy.css"/>
+    <script src="jquery-1.11.3.js"></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo" id="logo">
+            张&nbsp易       </div>
+        <div class="nav" id="nav">
+            <li>关于我</li>
+            <li>联系我</li>
+            <li>读书笔记</li>
+            <li>个人项目</li>
+        </div>
+    </div>
+    <div class="main" id="main"></div>
+    <div id="d0" class="main"></div>
+    <div id="d1" class="main"></div>
+    <div id="d3" class="main"></div>
+    <script>
+        window.onload=function(){
+            $("#logo").click(function(){
+                location.href=location.href;
+            })
+            $.getJSON("cy.json",function(data){
+                var arr=data.artical;
+                var html="";
+                var len=arr.length;
+                for(var i=0;i<len;i++){
+                    html+="<div class='item'><div class='title'><a href='#'>"+arr[i].title+"</a> </div> <div class='about'>"+arr[i].about+"</div> <div class='content'>"+arr[i].content+"</div></div>";
+                }
+                $("#main").append(html);
+                $("#nav>li").map(function(index,item){
+                    $(this).click(function(){
+                        $("#main").remove();
+                        var id="#d"+index;
+                        $(id).siblings("div[id*='d']").css("display","none");
+                        $(id).css("display","block");
+                        switch(index){
+                            case 0:
+                                $(id).html(data.guanyu);
+                                break;
+                            case 1:
+                                $(id).html(data.lianxi);
+                                break;
+                            case 2:
+                                location.href="canvas.html";
+                                break;
+                            case 3:
+                                $(id).html((function(){
+                                    var arr=data.xiangmu;
+                                    var html="";
+                                    var len=arr.length;
+                                    for(var i=0;i<len;i++){
+                                       html+="<div class='item'><div class='title'><a href="+arr[i].lianjie+">"+arr[i].title+"</a> </div> <div class='about'>"+arr[i].about+"</div> <div class='content'>"+arr[i].content+"</div></div>";
+                                    }
+                                    return html;
+                                })());
+                                break;
+                        }
+                    })
+                });
+            });
+        }
+    </script>
+</body>
+</html>

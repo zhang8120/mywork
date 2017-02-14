@@ -1,0 +1,65 @@
+﻿{
+  "artical":[
+    {
+      "title":"关于js跨域的几种方式以及原理",
+      "about":"发布日期:2017-2-12|来源:http://www.cnblogs.com/2050/p/3191744.html|标签:#js#跨域#widwow.name#jquery",
+      "content":"这里说的js跨域是指通过js在不同的域之间进行数据传输或通信，比如用ajax向一个不同的域请求数据，或者通过js获取页面中不同域的框架中(iframe)的数据。只要协议、域名、端口有任何一个不同，都被当作是不同的域。"
+    },
+    {
+      "title":"关于js同步和异步的区别和优缺点",
+      "about":"发布日期:2017-2-11|来源:http://www.qdfuns.com/notes/32387/4ce08765aacba7ad969315c59d267903.html|标签:#js#同步异步#ajax",
+      "content":"javascript语言是单线程机制。所谓单线程就是按次序执行，执行完一个任务再执行下一个。对于浏览器来说，也就是无法在渲染页面的同时执行代码。单线程机制的优点在于实现起来较为简单，运行环境相对简单。缺点在于，如果中间有任务需要响应时间过长，经常会导致页面加载错误或者浏览器无响应的状况。这就是所谓的“同步模式”，程序执行顺序与任务排列顺序一致。对于浏览器来说，同步模式效率较低，耗时长的任务都应该使用异步模式；而在服务器端，异步模式则是唯一的模式，如果采用同步模式个人认为服务器很快就会出现12306在高峰期的表现。。。。"
+    }
+  ],
+  "guanyu":"&nbsp&nbsp张易，吕梁学院软件工程本科毕业,div狂魔,坚持数据与视图分离，熟练掌握HTML，CSS,JavaScript，angularjs,熟练掌握ajax，json数据的请求与展示，熟悉php与MySQL，并且有数据库建库查询经验，熟练使用jQuery前端框架,bootstrap等组件框架，具有丰富的布局和交互经验，会使用nodejs，php。了解Vue和react，会切图，会ps抠图，各大论坛活跃用户，积极学习前端知识，|有自己的网站，有后台服务器和数据库的工作经验，这是我相对于其他前端工程师的优势。丨有移动端开发经验,能够独立解决生活和工作中遇到的问题和难题，随时准备着接受挑战。|有良好的逻辑思维能力和学习能力，并且对前端开发有极大兴趣。丨了解微信小程序的开发丨GitHub上有关于我的项目的开源代码丨有自己的博客和一些前端常见问题解决方法的总结丨熟悉HTML5各种新特性和CSS3新的选择器，新的属性以及动画，有canvas经验，熟悉echart框架。",
+  "lianxi":"email:15935408120@163.com tel:15935408120 现居上海",
+  "xiangmu":[
+    {
+      "title":"吕梁学院图书馆网站",
+      "about":"标签:#html#css#jquery#javascript",
+      "lianjie":"http://tsg.llhc.edu.cn",
+      "content":"对页面进行布局，和对页面动效的添加"
+    },
+    {
+      "title":"订餐类电商网",
+      "about":"标签:#mysql#php#jquery#angular",
+      "lianjie":"http://www.cyychzl.win",
+      "content":"数据库的定义与构建，PHP通过Ajax向页面传输json数据，移动端的外卖类型webAPP，jQuery mobile，angular js，bootstrap框架的混合使用，关于订单查询方面功能正在完善，"
+    },
+    {
+      "title":"游戏类网站展示",
+      "about":"标签:#mysql#php#jquery",
+      "lianjie":"http://www.cyychzl.win/wyyx",
+      "content":"div+css的布局，基于jQuery的页面交互"
+    },
+    {
+      "title":"2048游戏",
+      "about":"标签:#javascript#jquery",
+      "lianjie":"http://www.cyychzl.win/wyyx",
+      "content":"div+css的布局，基于jQuery的页面交互,使用键盘操作,数字运算算法"
+    },
+    {
+      "title":"canvas游戏",
+      "about":"标签:#html5#canvas",
+      "lianjie":"http://www.cyychzl.win/wyyx",
+      "content":"div+css的布局，使用canvas画布进行游戏的制作，使用javascript实现动画和键盘的操作"
+    }, {
+      "title":"响应式布局",
+      "about":"标签:#less#css3#jquery",
+      "lianjie":"http://www.cyychzl.win/cy",
+      "content":"对响应式布局进行学习掌握，采用less对css进行编译，使用12栅格化的方式，使页面实现大中小三种响应，并对页面进行添加一些动画效果"
+    },
+    {
+      "title":"房产网",
+      "about":"标签:#mysql#php#jquery#ajax#h5",
+      "lianjie":"http://www.cyychzl.win/lianjia/shouye.html",
+      "content":"div+css布局，基于jQuery的几个页面动态，基于Ajax+json的数据传输，PHP操作MySQL数据库实现登录注册验证功能，HTML5的sessionStorage的本地存储设置与获取"
+    },
+    {"title":"工作APP",
+      "about":"标签:#angular#jquery#ajax#node",
+      "lianjie":"http://myappz.duapp.com/",
+      "content":"前台采用angularjs进行路由后台采用nodejs服务器"
+    }
+
+   ]
+}
