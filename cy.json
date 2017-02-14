@@ -1,4 +1,4 @@
-﻿{
+{
   "artical":[
     {
       "title":"关于js跨域的几种方式以及原理",
@@ -35,18 +35,18 @@
     {
       "title":"2048游戏",
       "about":"标签:#javascript#jquery",
-      "lianjie":"http://www.cyychzl.win/wyyx",
+      "lianjie":"https://zhang8120.github.io/youxi/2048/2048",
       "content":"div+css的布局，基于jQuery的页面交互,使用键盘操作,数字运算算法"
     },
     {
       "title":"canvas游戏",
       "about":"标签:#html5#canvas",
-      "lianjie":"http://www.cyychzl.win/wyyx",
+      "lianjie":"https://zhang8120.github.io/youxi/canvas/",
       "content":"div+css的布局，使用canvas画布进行游戏的制作，使用javascript实现动画和键盘的操作"
     }, {
       "title":"响应式布局",
       "about":"标签:#less#css3#jquery",
-      "lianjie":"http://www.cyychzl.win/cy",
+      "lianjie":"https://zhang8120.github.io/zhangyi/apple/apple.html",
       "content":"对响应式布局进行学习掌握，采用less对css进行编译，使用12栅格化的方式，使页面实现大中小三种响应，并对页面进行添加一些动画效果"
     },
     {
